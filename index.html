@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sua pincelada</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="pincel.png">
+</head>
+<body>
+    <canvas id="canvas" width="800" height="500"></canvas>
+    <label for="tipoPincel"></label>
+    <select id="tipoPincel">
+        <option id="lapis" value="lapis">Lápis</option>
+        <option value="borracha">Borracha</option>
+    </select>
+    <label for="espessura">Espessura do Pincel:</label>
+    <input type="range" id="espessura" min="1" max="10" step="1" value="1">
+    <input type="color" id="cor" value="#000000">
+
+
+    <a href="index.html"><button class="learn-more"> reinicie aqui </button></a>
+    <script src="main.js"></script>
+</body>
+</html>
